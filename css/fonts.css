@@ -1,5 +1,11 @@
 @font-face {
     font-family: 'Overpass';
-    src: url(../fonts/Overpass-Regular.ttf);
-    font-weight: 700;
+    src: local("Overpass"), url(../fonts/Overpass-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Overpass';
+    src: local("Overpass"), url(../fonts/Overpass-Regular.ttf) format("truetype");
+    font-weight: 400;
 }
