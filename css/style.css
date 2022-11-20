@@ -1,0 +1,111 @@
+@import url(./fonts.css);
+
+/* 
+- Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) */
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.hero {
+    flex-basis: 35%;
+    background: #121517;
+    background: -webkit-radial-gradient(top, #252E37, #121517);
+    background: -moz-radial-gradient(top, #252E37, #121517);
+    background: radial-gradient(to bottom, #252E37, #121517);
+    border-radius: 50px;
+    padding: 30px;
+    box-shadow: 0 0 20px 1px #000;
+}
+
+.star-icon img {
+    padding: 15px;
+    background-color: #28282c;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass';
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
+    padding-top: 50px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass';
+    font-size: 18px;
+}
+
+.rate {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass';
+    padding-top: 30px;
+}
+
+.rate__el {
+    background-color: #28282c;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.rate__el:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: #e47900;
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 25px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #e47900;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 0;
+    margin-top: 30px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: #e47900;
+}
+
+.is-active {
+    background-color: #e47900;
+    color: hsl(0, 0%, 100%);
+}
+
+.is-active:hover {
+    background-color: #e47900;
+    color: hsl(0, 0%, 100%);
+}
