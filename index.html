@@ -9,39 +9,41 @@
     <link rel="icon" href="./favicon.png">
 </head>
 <body>
-    <div class="hero">
-        <div class="init-state">
-            <div class="star-icon">
-                <img src="./images/star.svg" alt="Star icon">
+    <div class="rating-component">
+        <div class="hero">
+            <div class="init-state">
+                <div class="star-icon">
+                    <img src="./images/star.svg" alt="Star icon">
+                </div>
+                <div class="text">
+                    <h1>How did we do?</h1>
+                    <p>
+                        Please let us know how we did with your support request. 
+                        All feedback is appreciated to help us improve our offering!
+                    </p>
+                </div>
+                <div class="rate">
+                    <div class="rate__el" data-value="1">1</div>
+                    <div class="rate__el" data-value="2">2</div>
+                    <div class="rate__el" data-value="3">3</div>
+                    <div class="rate__el" data-value="4">4</div>
+                    <div class="rate__el" data-value="5">5</div>
+                </div>
+                <button class="btn btn--disabled">Submit</button>
             </div>
-            <div class="text">
-                <h1>How did we do?</h1>
+            <div class="result-state is-hidden">
+                <div class="result__img-wrapper">
+                    <img src="./images/thank-you.svg" alt="thank you!" class="result__img">
+                </div>
+                <div class="result__score">
+                    <span>You selected 4 out of 5</span>
+                </div>
+                <h1>Thank you!</h1>
                 <p>
-                    Please let us know how we did with your support request. 
-                    All feedback is appreciated to help us improve our offering!
+                    We appreciate you taking the time to give a rating. 
+                    If you ever need more support, don’t hesitate to get in touch!
                 </p>
             </div>
-            <div class="rate">
-                <div class="rate__el" data-value="1">1</div>
-                <div class="rate__el" data-value="2">2</div>
-                <div class="rate__el" data-value="3">3</div>
-                <div class="rate__el" data-value="4">4</div>
-                <div class="rate__el is-active" data-value="5">5</div>
-            </div>
-            <button class="btn">Submit</button>
-        </div>
-        <div class="result-state is-hidden">
-            <div class="result__img-wrapper">
-                <img src="./images/thank-you.svg" alt="thank you!" class="result__img">
-            </div>
-            <div class="result__score">
-                <span>You selected 4 out of 5</span>
-            </div>
-            <h1>Thank you!</h1>
-            <p>
-                We appreciate you taking the time to give a rating. 
-                If you ever need more support, don’t hesitate to get in touch!
-            </p>
         </div>
     </div>
 
